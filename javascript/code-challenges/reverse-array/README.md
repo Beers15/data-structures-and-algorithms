@@ -80,4 +80,4 @@ function swapFirstAndLast(arr, left, right) {
 
 ## Visual
 
-![Array reversal](./reverse-array.png)
+![Array reversal](./reverse-array.PNG)
