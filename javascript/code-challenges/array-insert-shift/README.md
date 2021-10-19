@@ -1,4 +1,4 @@
-# Reverse an Array
+# Array Insert Shift
 
 Implements a function that when given an array argument and a value to be added, returns a new array with the value to be added inserted in the middle.
 
@@ -83,4 +83,4 @@ function arrayInsertShift(arr, val) {
 
 ## Visual
 
-![Array reversal](./array-insert-shift.PNG)
+![Array reversal](./array-insert-shift.png)
