@@ -68,7 +68,7 @@ function arrayInsertShift(arr, val) {
   let mid = Math.ceil(arr.length / 2);
 
   for(let i = 0; i < mid; i++) {
-    if(arr[mid + 1]) tempArr.push(arr[mid + i]);
+    if(arr[mid + i]) tempArr.push(arr[mid + i]);
   }
   arr[mid] = val;
 
