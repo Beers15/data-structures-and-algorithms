@@ -20,4 +20,8 @@ To run your tests
 
 ### 401 Data Structures, Code Challenges
 
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+[Array Binary Search Challenge](./javascript/challenges/array-binary-search/README.md)
+[Array Insert Shift Challenge](./javascript/challenges/array-insert-shift/README.md)
+[Linked List Challenge (code in challenge's directory)](./javascript/challenges/linked-list/README.md)
+[Reverse Array Challenge](./javascript/challenges/reverse-array/README.md)
+[Linked List Insertion Challenge](./javascript/challenges/linked-list-insertions/README.md)
