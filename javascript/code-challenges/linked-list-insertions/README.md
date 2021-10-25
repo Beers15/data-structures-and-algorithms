@@ -78,7 +78,7 @@ toString():
 
 ### Whiteboard Visual
 
-![singly linked list diagram](./singly-linked-list.png)
+![singly linked list diagram](./linked-list-insertions.png)
 
 ### Link To Code
 
