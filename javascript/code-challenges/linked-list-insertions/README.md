@@ -82,4 +82,4 @@ toString():
 
 ### Link To Code
 
-Code can be found ![here](./linked-list-insertions.js)
+Code can be found ![here](./Linked-list.js)
