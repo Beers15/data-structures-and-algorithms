@@ -20,8 +20,12 @@ To run your tests
 
 ### 401 Data Structures, Code Challenges
 
-[Array Binary Search Challenge](./javascript/challenges/array-binary-search/README.md)
-[Array Insert Shift Challenge](./javascript/challenges/array-insert-shift/README.md)
-[Linked List Challenge (code in challenge's directory)](./javascript/challenges/linked-list/README.md)
-[Reverse Array Challenge](./javascript/challenges/reverse-array/README.md)
-[Linked List Insertion Challenge](./javascript/challenges/linked-list-insertions/README.md)
+[Array Binary Search Challenge](./javascript/code-challenges/array-binary-search/README.md)
+
+[Array Insert Shift Challenge](./javascript/code-challenges/array-insert-shift/README.md)
+
+[Linked List Challenge - code in challenge's directory](./javascript/code-challenges/linked-list/README.md)
+
+[Reverse Array Challenge](./javascript/code-challenges/reverse-array/README.md)
+
+[Linked List Insertion Challenge](./javascript/code-challenges/linked-list-insertions/README.md)
