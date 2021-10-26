@@ -29,3 +29,5 @@ To run your tests
 [Reverse Array Challenge](./javascript/code-challenges/reverse-array/README.md)
 
 [Linked List Insertion Challenge](./javascript/code-challenges/linked-list-insertions/README.md)
+
+[Linked List Insertion Challenge](./javascript/code-challenges/linked-list-kth/README.md)
