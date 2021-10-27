@@ -1,4 +1,4 @@
-const LinkedList = require('../Linked-list');
+const LinkedList = require('./Linked-list');
 
 describe('Test the method added for this code challenge', () => {
   it('Should get the value k form the end with a “Happy Path”, i.e. k is not at the end, but somewhere in the middle of the linked list', () => {
