@@ -2,6 +2,7 @@ class Node {
   constructor(value){
     this.value = value;
     this.next = null;
+    this.length = 0;
   }
 }
 
@@ -9,13 +10,32 @@ class LinkedList {
   constructor() {
     this.HEAD = null;
     this.TAIL = null;
-    this.length = 0;
+  }
+
+  zipLists(list1, list2) {
+    //edge case, first list is empty
+    if(list1.HEAD === null) {
+      list1.HEAD = list2.HEAD;
+      list1.TAIL = list2.TAIL;
+      list1.length = list2.length;
+      return;
+    }
+    let curr1 = list1.HEAD;
+    let curr2 = list2.HEAD;
+
+    while(curr1 && curr2) {
+      let temp = curr1.next;
+      curr1.next = curr2;
+
+      curr1 = curr1.next;
+      curr2 = temp;
+    }
+    return list1.HEAD;
   }
 
   kthFromEnd(k) {
     //edge case, negative k
     let n = this.length;
-    console.log("THIS LENGTH", this.length);
     if(k < 0) {
       throw new Error('k must be positive');
     }
@@ -107,6 +127,7 @@ class LinkedList {
         found = true;
         let temp = current;
         let newNode = new Node(newVal);
+        this.length++;
         previous.next = newNode;
         newNode.next = temp;
       }
@@ -136,6 +157,7 @@ class LinkedList {
   insert(val) {
     let newNode = new Node(val);
     this.length++;
+
     if(this.HEAD !== null) {
       newNode.next = this.HEAD;
       this.HEAD = newNode;
