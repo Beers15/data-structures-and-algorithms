@@ -15,7 +15,7 @@ class LinkedList {
   kthFromEnd(k) {
     //edge case, negative k
     let n = this.length;
-    console.log("THIS LENGTH", this.length);
+
     if(k < 0) {
       throw new Error('k must be positive');
     }
