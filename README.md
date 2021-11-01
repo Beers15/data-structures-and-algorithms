@@ -30,4 +30,8 @@ To run your tests
 
 [Linked List Insertion Challenge](./javascript/code-challenges/linked-list-insertions/README.md)
 
-[Linked List Insertion Challenge](./javascript/code-challenges/linked-list-kth/README.md)
+[Linked List Kth from End Insertion Challenge](./javascript/code-challenges/linked-list-kth/README.md)
+
+[Stacks and Queues: Implementation Challenge]('./javascript/code-challenges/stack-and-queue/README.md)
+
+[Stacks and Queues: Stack Based Pseudo Queue Challenge]('./javascript/code-challenges/stack-pseudo-queue/README.md)
