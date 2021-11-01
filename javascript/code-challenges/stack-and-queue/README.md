@@ -35,7 +35,7 @@ Write tests to prove the following functionality:
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-The main things to consider when building each method were how should the next pointers for each node be manipulated as well when should the top/start/end pointers be updated. With those things in mind I took on one bullet point at a time from the list above. Afterward completing each requirement, I checked for accuracy with unit tests for each (no tests here for the existing linked list methods).
+The main things to consider when building each method were how should the next pointers for each node be manipulated as well when should the top/start/end pointers be updated. With those things in mind I took on one bullet point at a time from the list above. Afterward completing each requirement, I checked for accuracy with unit tests for each.
 
 I followed my created visuals in order to more easily turn ideas into code.
 
@@ -101,7 +101,7 @@ Queue: takes no arguments when instantiated
 
 ### Whiteboard Visual
 
-![singly linked list diagram](./stack-and-queue.png)
+![Stack and Queue diagram](./stack-and-queue.png)
 
 ### Link To Code
 
