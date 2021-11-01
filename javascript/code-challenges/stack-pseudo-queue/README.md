@@ -52,7 +52,7 @@ PseudoQueue: takes no arguments when instantiated
 
 ### Whiteboard Visual
 
-![pseudo queue diagram](./psuedoQueue.png)
+![pseudo queue diagram](./pseudoQueue.png)
 
 ### Link To Code
 
