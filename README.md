@@ -39,3 +39,5 @@ To run your tests
 [Stacks and Queues: Animal Shelter Challenge]('./javascript/code-challenges/stack-queue-animal-shelter/README.md)
 
 [Stacks and Queues: Multi Brackets Challenge]('./javascript/code-challenges/stack-queue-brackets/README.md)
+
+[Trees: BST and Tree Traversal Challenge]('./javascript/code-challenges/trees/README.md)
