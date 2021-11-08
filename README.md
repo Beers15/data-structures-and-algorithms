@@ -42,4 +42,6 @@ To run your tests
 
 [Trees: BST and Tree Traversal Challenge]('./javascript/code-challenges/trees/README.md)
 
-[Trees: Breadth First Challenge]('./javascript/code-challenges/trees-breadth-first/README.md)
+[Trees: Breadth-first Traversal Challenge]('./javascript/code-challenges/trees-breadth-first/README.md)
+
+[Trees: Binary Tree Maximum Challenge]('./javascript/code-challenges/tree-max/README.md)
