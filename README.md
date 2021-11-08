@@ -41,3 +41,5 @@ To run your tests
 [Stacks and Queues: Multi Brackets Challenge]('./javascript/code-challenges/stack-queue-brackets/README.md)
 
 [Trees: BST and Tree Traversal Challenge]('./javascript/code-challenges/trees/README.md)
+
+[Trees: Breadth First Challenge]('./javascript/code-challenges/trees-breadth-first/README.md)
