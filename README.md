@@ -1,18 +1,12 @@
 # Data Structures and Algorithms
 
-See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.
+See setup instructions [here](https://codefellows.github.io/setup-guide/code-301/3-code-challenges).
 
 ## Repository Quick Tour and Usage
 
-### 301 Code Challenges
+If you have not already done so, run `npm install` from within this folder to setup the system to be able to run tests using `Jest`
 
-Under the `javascript` folder, at the top level, is a sub-folder called `code-challenges`
-
-Each day, you'll add one new file to this folder to do your work for the day's assigned code challenge
-
-If you have not already done so, run `npm install` from within this folder to setup your system to be able to run tests using `Jest`
-
-To run your tests
+To run tests
 
 - Change to the `javascript` folder
 - run `npm test` to run all of the tests
@@ -32,18 +26,18 @@ To run your tests
 
 [Linked List Kth from End Insertion Challenge](./javascript/code-challenges/linked-list-kth/README.md)
 
-[Stacks and Queues: Implementation Challenge]('./javascript/code-challenges/stack-and-queue/README.md)
+[Stacks and Queues: Implementation Challenge](./javascript/code-challenges/stack-and-queue/README.md)
 
-[Stacks and Queues: Stack Based Pseudo Queue Challenge]('./javascript/code-challenges/stack-pseudo-queue/README.md)
+[Stacks and Queues: Stack Based Pseudo Queue Challenge](./javascript/code-challenges/stack-pseudo-queue/README.md)
 
-[Stacks and Queues: Animal Shelter Challenge]('./javascript/code-challenges/stack-queue-animal-shelter/README.md)
+[Stacks and Queues: Animal Shelter Challenge](./javascript/code-challenges/stack-queue-animal-shelter/README.md)
 
-[Stacks and Queues: Multi Brackets Challenge]('./javascript/code-challenges/stack-queue-brackets/README.md)
+[Stacks and Queues: Multi Brackets Challenge](./javascript/code-challenges/stack-queue-brackets/README.md)
 
-[Trees: BST and Tree Traversal Challenge]('./javascript/code-challenges/trees/README.md)
+[Trees: BST and Tree Traversal Challenge](./javascript/code-challenges/trees/README.md)
 
-[Trees: Breadth-first Traversal Challenge]('./javascript/code-challenges/trees-breadth-first/README.md)
+[Trees: Breadth-first Traversal Challenge](./javascript/code-challenges/trees-breadth-first/README.md)
 
-[Trees: Binary Tree Maximum Challenge]('./javascript/code-challenges/tree-max/README.md)
+[Trees: Binary Tree Maximum Challenge](./javascript/code-challenges/tree-max/README.md)
 
 [Trees: K-nary Tree FizzBuzz Challenge]('./javascript/code-challenges/tree-fizz-buzz/README.md)
