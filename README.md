@@ -45,3 +45,5 @@ To run your tests
 [Trees: Breadth-first Traversal Challenge]('./javascript/code-challenges/trees-breadth-first/README.md)
 
 [Trees: Binary Tree Maximum Challenge]('./javascript/code-challenges/tree-max/README.md)
+
+[Trees: K-nary Tree FizzBuzz Challenge]('./javascript/code-challenges/tree-fizz-buzz/README.md)
