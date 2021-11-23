@@ -40,4 +40,6 @@ To run tests
 
 [Trees: Binary Tree Maximum Challenge](./javascript/code-challenges/tree-max/README.md)
 
-[Trees: K-nary Tree FizzBuzz Challenge]('./javascript/code-challenges/tree-fizz-buzz/README.md)
+[Trees: K-nary Tree FizzBuzz Challenge](./javascript/code-challenges/tree-fizz-buzz/README.md)
+
+[Sorts: Insertion Sort Challenge](./javascript/code-challenges/insertion-sort/BLOG.md)
