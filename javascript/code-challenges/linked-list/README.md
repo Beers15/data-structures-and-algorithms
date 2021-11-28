@@ -30,7 +30,7 @@ I followed conventional diagrams for inserting and iterating over the list.
 
 Traversal over the collection (including search/includes) took O(N) time
 
-Insertion into the collection too O(1) time
+Insertion into the collection took O(1) time
 
 ## API
 <!-- Description of each method publicly available to your Linked List -->
