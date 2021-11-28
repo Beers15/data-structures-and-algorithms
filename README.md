@@ -43,3 +43,5 @@ To run tests
 [Trees: K-nary Tree FizzBuzz Challenge](./javascript/code-challenges/tree-fizz-buzz/README.md)
 
 [Sorts: Insertion Sort Challenge](./javascript/code-challenges/insertion-sort/BLOG.md)
+
+[Hash Tables: Implement Hash Table Challenge](./javascript/code-challenges/hashtable/README.md)
