@@ -1,7 +1,7 @@
 
 # Merge Sort
 
-Merge sort is a highly efficient divide an conquer sorting algorithm that continuously splits the passed in array in two. This is done until the sub arrays have a single element. The sub arrays are then built back together using comparisons resulting in larger and larger sorted sub arrays until a single sorted array is built.
+Merge sort is a highly efficient divide and conquer sorting algorithm that continuously splits the passed in array in two. This is done until the sub arrays have a single element. The sub arrays are then built back together using comparisons resulting in larger and larger sorted sub arrays until a single sorted array is built.
 
 ## Psuedocode
 

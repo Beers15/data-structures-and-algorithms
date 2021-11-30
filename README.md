@@ -47,3 +47,5 @@ To run tests
 [Sorts: Merge Sort Implementation Challenge](./javascript/code-challenges/merge-sort/BLOG.md)
 
 [Hash Tables: Implement Hash Table Challenge](./javascript/code-challenges/hashtable/README.md)
+
+[Sorts: Quick Sort Implementation Challenge](./javascript/code-challenges/quick-sort/BLOG.md)
