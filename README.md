@@ -49,3 +49,5 @@ To run tests
 [Hash Tables: Implement Hash Table Challenge](./javascript/code-challenges/hashtable/README.md)
 
 [Sorts: Quick Sort Implementation Challenge](./javascript/code-challenges/quick-sort/BLOG.md)
+
+[Hash Tables: Repeated Word Challenge](./javascript/code-challenges/repeated-word/README.md)
