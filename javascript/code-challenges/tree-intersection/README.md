@@ -6,12 +6,12 @@ Find common values in 2 binary trees. Use a hashmap in your implementation.
 
 Write tests to prove the following functionality:
 
-    Can successfully return a set of values found in both binary search trees
-    Can handle 1 empty binary search tree
-    Can handle 2 empty binary search trees
-    Can handle 2 binary search trees with zero similar values
+    Can successfully return a set of values found in both binary trees
+    Can handle 1 empty binary tree
+    Can handle 2 empty binary trees
+    Can handle 2 binary trees with zero similar values
     Can handle 1 or both of the trees having just a single value
-    Can handle duplicate values in the same tree. I.e., the algorithm won't think that such duplicates came from the other binary search tree
+    Can handle duplicate values in the same tree. I.e., the algorithm won't think that such duplicates came from the other binary tree
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
@@ -29,11 +29,11 @@ Pretty good complexity overall, but there's likely a simpler way to do this.
 
 ## API
 <!-- Description of each method publicly available to your Linked List -->
-  treeIntersection(bst1, bst2):
+  treeIntersection(bt1, bt2):
 
-  Arguments: 2 binary search trees
+  Arguments: 2 binary trees
   Returns: a set of values
-  This method iterates through 2 binary search trees and returns a set of values that are found in both
+  This method iterates through 2 binary trees and returns a set of values that are found in both
 
 -----
 

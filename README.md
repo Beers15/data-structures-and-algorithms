@@ -53,3 +53,5 @@ To run tests
 [Hash Maps: Repeated Word Challenge](./javascript/code-challenges/repeated-word/README.md)
 
 [Hash Maps: Tree Intersection Challenge](./javascript/code-challenges/tree-intersection/README.md)
+
+[Hash Maps: Simple Left Join Challenge](./javascript/code-challenges/hashmap-left-join/README.md)

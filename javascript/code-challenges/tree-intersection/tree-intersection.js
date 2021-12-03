@@ -1,20 +1,20 @@
 const HashMap = require('./hashMap');
 
-const treeIntersection = (bst1, bst2) => {
+const treeIntersection = (bt1, bt2) => {
   let result = new Set();
   let values = new HashMap(1024);
 
-  grabValuesAndCheckDupes(bst1, result, values);
-  grabValuesAndCheckDupes(bst2, result, values);
+  grabValuesAndCheckDupes(bt1, result, values);
+  grabValuesAndCheckDupes(bt2, result, values);
 
   return result;
 };
 
-const grabValuesAndCheckDupes = (bst, resultSet, values) => {
+const grabValuesAndCheckDupes = (bt, resultSet, values) => {
   //array used to ensure dupes in a single tree are counted as dupes between both trees
   let temp = [];
 
-  preOrderTraversal(bst, resultSet, values, temp);
+  preOrderTraversal(bt, resultSet, values, temp);
 };
 
 const preOrderTraversal = (current, resultSet, values, temp) => {
