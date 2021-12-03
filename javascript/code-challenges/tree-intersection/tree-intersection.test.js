@@ -2,88 +2,88 @@ const treeIntersection = require('./tree-intersection');
 const Node = require('./node');
 
 describe('', () => {
-  let bst1 = new Node(25);
-  bst1.left = new Node(13);
-  bst1.left.left = new Node(11);
-  bst1.left.right = new Node(14);
-  bst1.right = new Node(34);
+  let bt1 = new Node(25);
+  bt1.left = new Node(13);
+  bt1.left.left = new Node(11);
+  bt1.left.right = new Node(14);
+  bt1.right = new Node(34);
 
-  let bst2 = new Node(24);
-  bst2.left = new Node(10);
-  bst2.right = new Node(30);
-  bst2.right.left = new Node(25);
-  bst2.right.right = new Node(34);
+  let bt2 = new Node(24);
+  bt2.left = new Node(10);
+  bt2.right = new Node(30);
+  bt2.right.left = new Node(25);
+  bt2.right.right = new Node(34);
 
-  let bst3 = new Node(25);
-  bst3.left = new Node(13);
-  bst3.left.left = new Node(11);
-  bst3.left.right = new Node(14);
-  bst3.right = new Node(34);
+  let bt3 = new Node(25);
+  bt3.left = new Node(13);
+  bt3.left.left = new Node(11);
+  bt3.left.right = new Node(14);
+  bt3.right = new Node(34);
 
-  let bst4 = new Node(24);
-  bst4.left = new Node(9);
-  bst4.right = new Node(30);
-  bst4.right.left = new Node(26);
-  bst4.right.right = new Node(36);
+  let bt4 = new Node(24);
+  bt4.left = new Node(9);
+  bt4.right = new Node(30);
+  bt4.right.left = new Node(26);
+  bt4.right.right = new Node(36);
 
-  let bst7 = new Node(25);
-  bst7.left = new Node(13);
-  bst7.left.left = new Node(11);
-  bst7.left.right = new Node(14);
-  bst7.right = new Node(34);
+  let bt7 = new Node(25);
+  bt7.left = new Node(13);
+  bt7.left.left = new Node(11);
+  bt7.left.right = new Node(14);
+  bt7.right = new Node(34);
 
-  let bst8 = new Node(24);
-  bst8.left = new Node(10);
-  bst8.left.left = new Node(10);
-  bst8.left.right = new Node(10);
-  bst8.right = new Node(30);
-  bst8.right.left = new Node(25);
-  bst8.right.right = new Node(34);
-  bst8.right.right.left = new Node(34);
+  let bt8 = new Node(24);
+  bt8.left = new Node(10);
+  bt8.left.left = new Node(10);
+  bt8.left.right = new Node(10);
+  bt8.right = new Node(30);
+  bt8.right.left = new Node(25);
+  bt8.right.right = new Node(34);
+  bt8.right.right.left = new Node(34);
 
 
-  it('can successfully return a set of values found in both binary search trees', () => {
+  it('can successfully return a set of values found in both binary trees', () => {
     //convert Set to array for testing
-    let duplicates = Array.from(treeIntersection(bst1, bst2));
+    let duplicates = Array.from(treeIntersection(bt1, bt2));
 
     expect(duplicates).toEqual([25,34]);
   });
 
-  it('can handle 1 empty binary search tree', () => {
+  it('can handle 1 empty binary tree', () => {
     //convert Set to array for testing
-    let duplicates = Array.from(treeIntersection(bst1, null));
+    let duplicates = Array.from(treeIntersection(bt1, null));
 
     expect(duplicates).toEqual([]);
   });
 
-  it('can handle 2 empty binary search trees', () => {
+  it('can handle 2 empty binary trees', () => {
     //convert Set to array for testing
     let duplicates = Array.from(treeIntersection(null, null));
 
     expect(duplicates).toEqual([]);
   });
 
-  it('can handle 2 binary search trees with zero similar values', () => {
+  it('can handle 2 binary trees with zero similar values', () => {
     //convert Set to array for testing
-    let duplicates = Array.from(treeIntersection(bst3, bst4));
+    let duplicates = Array.from(treeIntersection(bt3, bt4));
 
     expect(duplicates).toEqual([]);
   });
 
   it('can handle 1 or both of the trees having just a single value', () => {
-    let bst5 = new Node(5);
-    let bst6 = new Node(6);
+    let bt5 = new Node(5);
+    let bt6 = new Node(6);
     //convert Set to array for testing
-    let duplicates1 = Array.from(treeIntersection(bst5, bst6));
-    let duplicates2 = Array.from(treeIntersection(bst6, bst4));
+    let duplicates1 = Array.from(treeIntersection(bt5, bt6));
+    let duplicates2 = Array.from(treeIntersection(bt6, bt4));
 
     expect(duplicates1).toEqual([]);
     expect(duplicates2).toEqual([]);
   });
 
-  it('can handle duplicate values in the same tree. I.e., the algorithm won\'t think that such duplicates came from the other binary search tree', () => {
+  it('can handle duplicate values in the same tree. I.e., the algorithm won\'t think that such duplicates came from the other binary tree', () => {
     //convert Set to array for testing
-    let duplicates = Array.from(treeIntersection(bst7, bst8));
+    let duplicates = Array.from(treeIntersection(bt7, bt8));
 
     expect(duplicates).toEqual([25,34]);
   });
