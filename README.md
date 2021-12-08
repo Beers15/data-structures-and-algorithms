@@ -57,3 +57,5 @@ To run tests
 [Hash Maps: Simple Left Join Challenge](./javascript/code-challenges/hashmap-left-join/README.md)
 
 [Graphs: Graph Implementation Challenge](./javascript/code-challenges/graph/README.md)
+
+[Graphs: Graph Breadth First Search Challenge](./javascript/code-challenges/graph-breadth-first/README.md)
