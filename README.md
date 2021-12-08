@@ -55,3 +55,5 @@ To run tests
 [Hash Maps: Tree Intersection Challenge](./javascript/code-challenges/tree-intersection/README.md)
 
 [Hash Maps: Simple Left Join Challenge](./javascript/code-challenges/hashmap-left-join/README.md)
+
+[Graphs: Graph Implementation Challenge](./javascript/code-challenges/graph/README.md)
