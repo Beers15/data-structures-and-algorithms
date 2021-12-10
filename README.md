@@ -59,3 +59,5 @@ To run tests
 [Graphs: Graph Implementation Challenge](./javascript/code-challenges/graph/README.md)
 
 [Graphs: Graph Breadth First Search Challenge](./javascript/code-challenges/graph-breadth-first/README.md)
+
+[Graphs: Graph Depth First Search Challenge](./javascript/code-challenges/graph-depth-first/README.md)
