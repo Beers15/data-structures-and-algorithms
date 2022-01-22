@@ -1,10 +1,10 @@
 # Data Structures and Algorithms
 
-See setup instructions [here](https://codefellows.github.io/setup-guide/code-301/3-code-challenges).
+This repo serves as a place for me to collect my solutions to various coding problems. A list of these solutions along with unit tests to prove their efficacy is listed below.
 
 ## Repository Quick Tour and Usage
 
-If you have not already done so, run `npm install` from within this folder to setup the system to be able to run tests using `Jest`
+Run `npm install` from within this folder to setup the system to be able to run tests using `Jest`
 
 To run tests
 
@@ -12,7 +12,7 @@ To run tests
 - run `npm test` to run all of the tests
 - run `npm test ##` to only run tests for challenge ## (i.e. 01)
 
-### 401 Data Structures, Code Challenges
+### Code Challenges
 
 [Array Binary Search Challenge](./javascript/code-challenges/array-binary-search/README.md)
 
@@ -62,4 +62,4 @@ To run tests
 
 [Graphs: Graph Depth First Search Challenge](./javascript/code-challenges/graph-depth-first/README.md)
 
-[Deepest Leaves Sum Challenge](./javascript/code-challenges/deepest-leaves-sum/README.md)
+[Trees: Deepest Leaves Sum Challenge](./javascript/code-challenges/deepest-leaves-sum/README.md)
