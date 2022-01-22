@@ -61,3 +61,5 @@ To run tests
 [Graphs: Graph Breadth First Search Challenge](./javascript/code-challenges/graph-breadth-first/README.md)
 
 [Graphs: Graph Depth First Search Challenge](./javascript/code-challenges/graph-depth-first/README.md)
+
+[Deepest Leaves Sum Challenge](./javascript/code-challenges/deepest-leaves-sum/README.md)
