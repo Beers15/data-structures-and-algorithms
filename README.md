@@ -63,3 +63,5 @@ To run tests
 [Graphs: Graph Depth First Search Challenge](./javascript/code-challenges/graph-depth-first/README.md)
 
 [Trees: Deepest Leaves Sum Challenge](./javascript/code-challenges/deepest-leaves-sum/README.md)
+
+[Group Anagrams Challenge](./javascript/code-challenges/group-anagrams/README.md)
