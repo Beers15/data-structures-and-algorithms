@@ -64,4 +64,6 @@ To run tests
 
 [Trees: Deepest Leaves Sum Challenge](./javascript/code-challenges/deepest-leaves-sum/README.md)
 
-[Group Anagrams Challenge](./javascript/code-challenges/group-anagrams/README.md)
+[Trees: Group Anagrams Challenge](./javascript/code-challenges/group-anagrams/README.md)
+
+[Linked List: Swap Nodes in List Challenge](./javascript/code-challenges/swap-nodes-linked-list/README.md)
