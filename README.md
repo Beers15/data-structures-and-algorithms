@@ -66,4 +66,4 @@ To run tests
 
 [Trees: Group Anagrams Challenge](./javascript/code-challenges/group-anagrams/README.md)
 
-[Linked List: Swap Nodes in List Challenge](./javascript/code-challenges/swap-nodes-linked-list/README.md)
+[Trees: Delete Leaf Nodes With Value Challenge](./javascript/code-challenges/delete-leaf-nodes-with-value/README.md)
